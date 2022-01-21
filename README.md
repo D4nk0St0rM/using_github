@@ -65,11 +65,10 @@ When you want to display an image which is in your repository use relative links
 ```
 ../blob/main/assets/images/eff_monogram-red-reverse.png
 ```
-
-![This is an image](https://www.eff.org/files/2018/06/14/eff_monogram-red-reverse.png)
+![GitHub Dark](https://www.eff.org/files/2018/06/14/eff_monogram-red-reverse.png)
 
 ```
-![This is an image](https://www.eff.org/files/2018/06/14/eff_monogram-red-reverse.png)
+![GitHub Dark](https://www.eff.org/files/2018/06/14/eff_monogram-red-reverse.png)
 ```
 
 #### Tables
