@@ -195,4 +195,43 @@ If a task list item description begins with a parenthesis, you'll need to escape
 
 ```
 
+#### Creating a collapsed section
+
+You can temporarily obscure sections of your Markdown by creating a collapsed section that the reader can choose to expand. 
+
+For example, when you want to include technical details in an issue comment that may not be relevant or interesting to every reader, you can put those details in a collapsed section. 
+
+Any Markdown within the ```<details>``` block will be collapsed until the reader clicks to expand the details. 
+
+Within the ```<details>``` block, use the ```<summary>``` tag to create a label to the right of icon
+
+```
+<details><summary>CLICK ME</summary>
+<p>
+
+#### We can hide anything, even code!
+
+    ```ruby
+      puts "Hello World"
+    ```
+
+</p>
+</details>
+```
+
+<details><summary>CLICK ME</summary>
+<p>
+
+#### We can hide anything, even code!
+
+    ```ruby
+      puts "Hello World"
+    ```
+
+</p>
+</details>
+
+The Markdown will be collapsed by default.
+
+
 
